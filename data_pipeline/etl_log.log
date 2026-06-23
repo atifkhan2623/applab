@@ -1,0 +1,9 @@
+2026-06-23 21:26:17,675 - INFO - Data extraction successful
+2026-06-23 21:26:17,699 - INFO - Transformation successful
+2026-06-23 21:26:18,412 - INFO - 206 records inserted into sales_data table
+2026-06-23 21:28:26,066 - INFO - Data extraction successful
+2026-06-23 21:28:26,091 - INFO - Transformation successful
+2026-06-23 21:28:26,622 - INFO - 0 records inserted into sales_data table
+2026-06-23 21:28:51,252 - INFO - Data extraction successful
+2026-06-23 21:28:51,267 - INFO - Transformation successful
+2026-06-23 21:28:51,933 - INFO - 206 records inserted into sales_data table
