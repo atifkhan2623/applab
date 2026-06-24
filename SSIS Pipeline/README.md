@@ -1,34 +1,34 @@
 # SSIS Customer Data Pipeline
 
-## Overview
-This SSIS package processes customer_data.json and loads it into SQL Server.
+## 📌 Overview
+This project implements an SSIS (SQL Server Integration Services) package to process customer data from a JSON file and load it into a PostgreSQL database. The pipeline performs data extraction, transformation, validation, and error handling.
 
-## Design
-- Control Flow:
-  - Data Flow Task to process JSON
-  - Logging via Error Output
-  - Checkpoint enabled
+## 📂 Source Data
 
-- Data Flow:
-  - Source: JSON Source (via Script Component)
-  - Derived Column: Clean/standardize fields
-  - Conditional Split: Valid vs Invalid records
-  - Destination: SQL Customers table
-  - Error Output -> ErrorLog table
+Input file: `customer_data.json`
 
-## Features
-- Variables for file path and connection
-- Checkpoints enabled for restartability
-- Logging for failures
+Sample structure:
+```json
+[
+  {
+    "customer_id": "C001",
+    "customer_name": "John Smith",
+    "email": "user@example.com",
+    "region": null,
+    "join_date": "2024-06-20",
+    "loyalty_points": 840
+  }
+]
 
-## Validation
-- NULL checks
-- Data type conversion
-- Reject invalid records
+## 📂 Destination Data
 
-## Scaling Approach
-- Partitioned loads
-- Incremental loading
-- Parallel data flows
+Table: `customer`
 
-Generated on 2026-06-23 16:49:31.167499
+CREATE TABLE customer (
+    customer_id VARCHAR(256),
+    customer_name VARCHAR(256),
+    email VARCHAR(256),
+    region VARCHAR(256),
+    join_date VARCHAR(256),
+    loyalty_points VARCHAR(256)
+);

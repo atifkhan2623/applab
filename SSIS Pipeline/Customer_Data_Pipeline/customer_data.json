@@ -74,7 +74,7 @@
     {
         "customer_id": "C010",
         "customer_name": "Alice Brown 9",
-        "email": "longemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemail@example.com",
+        "email": "@example.com",
         "region": "East",
         "join_date": "2023-01-30",
         "loyalty_points": 150
@@ -130,7 +130,7 @@
     {
         "customer_id": "C017",
         "customer_name": "Name with special chars !@#$%^&*()",
-        "email": "longemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemail@example.com",
+        "email": "@example.com",
         "region": null,
         "join_date": "invalid_date",
         "loyalty_points": 510
@@ -170,7 +170,7 @@
     {
         "customer_id": "C022",
         "customer_name": "",
-        "email": "longemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemail@example.com",
+        "email": "@example.com",
         "region": "North",
         "join_date": "2022-08-15",
         "loyalty_points": null
@@ -210,7 +210,7 @@
     {
         "customer_id": "C027",
         "customer_name": "John Smith 26",
-        "email": "longemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemail@example.com",
+        "email": "@example.com",
         "region": "South",
         "join_date": "2022-11-18",
         "loyalty_points": 632
@@ -225,7 +225,7 @@
     },
     {
         "customer_id": null,
-        "customer_name": "Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name ",
+        "customer_name": "                    ",
         "email": "invalid_email",
         "region": null,
         "join_date": "2022-02-13",
@@ -282,14 +282,14 @@
     {
         "customer_id": "C036",
         "customer_name": "Alice Brown 35",
-        "email": "longemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemail@example.com",
+        "email": "@example.com",
         "region": "North",
         "join_date": "2023-01-31T00:00:00Z",
         "loyalty_points": 1152
     },
     {
         "customer_id": "C037",
-        "customer_name": "Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name ",
+        "customer_name": "                    ",
         "email": "user36@example.com",
         "region": "Unknown",
         "join_date": "2022-07-23",
@@ -361,7 +361,7 @@
     },
     {
         "customer_id": "C046",
-        "customer_name": "Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name ",
+        "customer_name": "                    ",
         "email": "invalid_email",
         "region": null,
         "join_date": "2024-01-09",
@@ -378,7 +378,7 @@
     {
         "customer_id": "C048",
         "customer_name": "Michael Lee 47",
-        "email": "longemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemail@example.com",
+        "email": "@example.com",
         "region": "South",
         "join_date": "2022-08-19",
         "loyalty_points": 83
@@ -418,7 +418,7 @@
     {
         "customer_id": "C053",
         "customer_name": "Sarah Jones 52",
-        "email": "longemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemail@example.com",
+        "email": "1@example.com",
         "region": null,
         "join_date": "2022-03-08",
         "loyalty_points": 1661
@@ -433,7 +433,7 @@
     },
     {
         "customer_id": "C055",
-        "customer_name": "Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name ",
+        "customer_name": "                    ",
         "email": "user54@example.com",
         "region": "North",
         "join_date": "2022-09-02",
@@ -457,7 +457,7 @@
     },
     {
         "customer_id": "C058",
-        "customer_name": "Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name ",
+        "customer_name": "                    ",
         "email": "user57@example.com",
         "region": null,
         "join_date": "2024-08-10",
@@ -513,7 +513,7 @@
     },
     {
         "customer_id": "C065",
-        "customer_name": "Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name Very Long Name ",
+        "customer_name": "                    ",
         "email": "user64@example.com",
         "region": "North",
         "join_date": "2024-01-05",
@@ -554,7 +554,7 @@
     {
         "customer_id": "C070",
         "customer_name": "John Smith 69",
-        "email": "longemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemail@example.com",
+        "email": "@example.com",
         "region": "Unknown",
         "join_date": "invalid_date",
         "loyalty_points": 909
@@ -594,7 +594,7 @@
     {
         "customer_id": "C075",
         "customer_name": "Michael Lee 74",
-        "email": "longemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemail@example.com",
+        "email": "@example.com",
         "region": null,
         "join_date": "2022-12-10",
         "loyalty_points": 1823
@@ -610,7 +610,7 @@
     {
         "customer_id": "C077",
         "customer_name": "",
-        "email": "longemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemail@example.com",
+        "email": "@example.com",
         "region": "East",
         "join_date": "2024-01-14",
         "loyalty_points": 1976
@@ -714,7 +714,7 @@
     {
         "customer_id": "C090",
         "customer_name": "John Smith 89",
-        "email": "longemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemail@example.com",
+        "email": "@example.com",
         "region": null,
         "join_date": "2024-03-03",
         "loyalty_points": 816
@@ -762,7 +762,7 @@
     {
         "customer_id": "C096",
         "customer_name": "Sarah Jones 95",
-        "email": "longemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemaillongemail@example.com",
+        "email": "@example.com",
         "region": "East",
         "join_date": "2023-10-08",
         "loyalty_points": 880
